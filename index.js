@@ -11,8 +11,8 @@ bot.once('ready', () => {
 
 
 bot.on('message', message => {
-    let p = srv.getMaxPlayers();
     if(message.content.startsWith(prefix + "ip")){
+        if (message.member.hasPermission('MANAGE_MESSAGES')) {
         message.delete();
         message.channel.bulkDelete(99);
     let embed = new Discord.MessageEmbed()
@@ -25,6 +25,7 @@ bot.on('message', message => {
     .setFooter('Onyx Life RP © 2020')
 
     message.channel.send(embed);
+        }
     }
 })
 
