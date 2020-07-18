@@ -25,6 +25,7 @@ bot.on('message', message => {
     .setFooter('Onyx Life RP © 2020')
 
     message.channel.send(embed);
+    message.channel.send("@here");
         }
     }
 })
