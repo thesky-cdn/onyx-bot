@@ -19,9 +19,9 @@ bot.on('message', message => {
     .setTitle('Ony Life RP')
     .setThumbnail('https://i.imgur.com/2ypP0H2.png')
     .setColor('#ff0000')
-    .addField('Comment nou rejoindre ?', "Pour rejoindre notre serveur c'est tres simple ! il te suffit de cliquer sur [F8] et d'écrire: connect 176.31.8.220:30475")
+    .addField('Comment nou rejoindre ?', "Pour rejoindre notre serveur c'est tres simple ! il te suffit de cliquer sur [F8] et d'écrire: connect 164.132.233.136:30139")
     .addField('Server Status', ':white_check_mark:  Online')
-    .addField('Adresse IP', '176.31.8.220:30475')
+    .addField('Adresse IP', '164.132.233.136:30139')
     .setFooter('Onyx Life RP © 2020')
 
     message.channel.send(embed);
